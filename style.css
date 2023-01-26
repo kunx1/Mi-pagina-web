@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 50px;
+}
+
+/* .menu  a:hover{
+background: #2196f3;
+transform: scale(1.1);
+
+} */
+
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background: url(imagen/milei.jpg);
+    
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.banner h2{
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner h2 span{
+    font-size: 1.5em;
+    font-weight: 700;
+    
+} 
+
+.banner h3{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+    
+}
+
+.btn{
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky{
+    background: rgb(245, 240, 240);
+    padding: 40px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+header .logo{
+color: #fff;
+font-size: 24px;
+text-transform: uppercase;
+text-decoration: none;
+font-weight: 700;
+letter-spacing: 2px;
+font-size: 24px; /* tamaño del logo */
+}
+
+header.sticky .logo{
+    color: #111;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 21px; /* tamaño del menu */
+}
+
+header.sticky ul li a{
+    color: #111;
+}
+
+/* Seccion de About */
+
+.about .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 45px;
+    color: #111;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+ 
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBx{
+    padding-right: 30px;
+}
+
+.contentBx h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+
+.w50{
+    min-width: 50%;
+    
+    }
+
+    img{
+        max-width: 100%;
+        
+    }
+
+    .contentBx {
+        font-size: 18px;
+    }
+
+    p{
+        padding: 0;
+        margin: 0;
+    }
+/* Skill */
+.skill .title{
+   text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+
+
+.skill .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    
+   
+    
+}
+
+.container img{
+    width: 130px;
+    margin: 20px;
+    object-fit: cover;
+}
+
+
+
+/* Mis Servicios */
+.services .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.services .title-services  {
+    text-align: center;
+     font-size: 35px;
+     
+    
+     
+ }
+
+ .services .title-services > h1{
+    margin-bottom: 10px;
+ }
+
+ .services .title-services > p{
+font-size: 20px;
+ }
+
+ .servicesBx {
+    
+    width: 200px;
+    
+    margin: 20px;
+ }
+
+ .servicesBx > h2{
+     margin-bottom: 10px;
+ }
+
+
+
